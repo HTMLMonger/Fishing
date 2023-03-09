@@ -1,0 +1,32 @@
+html, body {margin: 0; height: 100%; overflow: hidden;
+
+  height: 100vh;}
+
+
+iframe{
+  height: 90vh
+}
+
+#map{
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  padding: 2vh
+}
+
+.carousel-item {
+    height: 95vh;
+  }
+  
+.carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 95vh;
+  }
+.carousel-inner{
+    height: 100vh;
+    background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  }
+
+
