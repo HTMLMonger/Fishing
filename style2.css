@@ -1,14 +1,16 @@
 
 html, body {margin: 0; height: 100%; }
-section.pricing {
+.background {
     background: #007bff;
     background: linear-gradient(to right, #0062E6, #33AEFF);
-
-
-    
+    object-fit: cover;
   }
-  .pricing .container{
-    padding: 5vh
+
+  .pricing {
+    padding-bottom: 15vh
+  }
+  .container{
+    padding-bottom: 15vh
   }
   .pricing .card {
     border: none;
