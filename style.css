@@ -1,0 +1,58 @@
+html, body {
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
+ 
+
+}
+
+iframe{
+  height: 90vh
+}
+
+@media screen and (min-width: 480px ){
+  iframe{
+    height: 90vh
+    
+  }
+  picture img{
+    height:95vh;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  iframe{
+    height: 90vh;
+  }
+  picture img{
+    height:95vh;
+  }
+}
+
+
+
+#map{
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  padding: 3vh;
+  min-height: 100%
+  
+}
+
+.carousel-item {
+    height: 95vh;
+  }
+  
+.carousel-item img {
+      
+      top: 0;
+      left: 0;
+      height: 100vh;
+  }
+.carousel-inner{
+    height: 100vh;
+    background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  }
+
+
